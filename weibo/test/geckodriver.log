@@ -1,0 +1,17 @@
+1493304392277	geckodriver	INFO	Listening on 127.0.0.1:61473
+1493304394301	mozprofile::profile	INFO	Using profile path C:\Users\HANMEN~1\AppData\Local\Temp\rust_mozprofile.k6NHEwfra5lO
+1493304394301	geckodriver::marionette	INFO	Starting browser D:\Software\Firefox\firefox.exe
+1493304394317	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61479
+1493304396607	Marionette	INFO	Listening on port 61479
+[GPU 5756] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7932] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7932] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+0000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ send/recv
+
