@@ -19,9 +19,9 @@ class ApiClient():
         driver.get(self.client.get_authorize_url())
         username_element = driver.find_element_by_id('userId')
         username_element.clear()
-        username_element.send_keys('13041233988')
+        username_element.send_keys('*****')
         password_element = driver.find_element_by_id('passwd')
-        password_element.send_keys('han8528520258')
+        password_element.send_keys('******')
         driver.find_element_by_class_name('oauth_login_form').submit()
         '''授权并解析得到code,这部分本来想继续用selenium操作浏览器，以自动获取access_token，但是这种方法太不稳定了，所幸手动获取'''
         try:
