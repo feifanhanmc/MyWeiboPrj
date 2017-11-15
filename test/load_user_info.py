@@ -9,8 +9,8 @@ class load_user_info:
     
     def __init__(self):
         self.cookies = []
-        self.username = '13041233988'
-        self.password = 'han8528520258'
+        self.username = '****'
+        self.password = '*****'
         
     def login_get_cookie(self):
         username = base64.b64encode(self.username.encode('utf-8')).decode('utf-8')
