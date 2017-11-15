@@ -9,8 +9,8 @@ import rsa
 class sina_login():
     
     def __init__(self):
-        self.username = '13041233988'   #self.username = raw_input('Username : ')
-        self.password = 'han8528520258' #self.password = raw_input('Password : ')
+        self.username = '*****'   #self.username = raw_input('Username : ')
+        self.password = '*****' #self.password = raw_input('Password : ')
         self.login_url = 'https://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.4.15)'
         self.headers = {}
     
