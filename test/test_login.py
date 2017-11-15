@@ -42,4 +42,4 @@ def login(username, password):
         print("登录失败，原因： %s" % info["reason"])
     return session
 if __name__ == '__main__':
-    session = login('13041233988', 'han8528520258')
+    session = login('*****', '*****')
