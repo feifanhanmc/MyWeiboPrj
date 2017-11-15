@@ -9,8 +9,8 @@ from weibo import APIClient
 class ApiClient():
     def __init__(self, APP_INFO, index):
         self.index = index
-        self.username = '13041233988'
-        self.password = 'han8528520258'        
+        self.username = '*********'
+        self.password = '*********'        
         self.CALLBACK_URL = 'https://api.weibo.com/oauth2/default.html'        
 
         self.APP_KEY = APP_INFO[0]
