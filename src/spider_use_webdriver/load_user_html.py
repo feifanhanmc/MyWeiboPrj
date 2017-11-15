@@ -57,8 +57,8 @@ def write_to_file(user_html, uids_succeed):
             count = count + 1
     
 def main():
-    username = '13041233988'
-    password = 'han8528520258'
+    username = '*****'
+    password = '*****'
     driver = webdriver.Firefox()
     login(username, password, driver)
     uids = []
