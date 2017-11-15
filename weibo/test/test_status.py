@@ -184,8 +184,8 @@ def VisitPersonPage(user_id):
           
 if __name__ == '__main__':  
   
-    username = '13041233988'
-    password = 'han8528520258'
+    username = '*****'
+    password = '*****'
     user_id = 'guangxianliuyan'  
   
     LoginWeibo(username, password)
